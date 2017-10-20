@@ -35,4 +35,18 @@ int main(void)
      x=b*10+a;
 	printf("THe reverse is %d.\n",x);
 	}
+    //This is the answer of Question Seven
+        {
+            int a=1,b=1,sum;
+            for(sum=0;sum<5;sum++)
+            {
+                printf("%d\n%d\n",a,b);
+                a=a+b;
+                b=a+b;
+            }
+            return 0;
+        }
+
 }
+}
+
